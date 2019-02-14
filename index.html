@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Daniel Boffey-Web Developer</title>
 </head>
 
@@ -16,10 +16,10 @@
   <!-- Full page container -->
   <div class="main-container">
     <!-- Navbar -->
-    <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <nav id="main-nav" class="navbar navbar-expand-sm sticky-top">
       <a class="navbar-brand" href="#">Daniel Boffey</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
+         <span><i class="fas fa-bars fa-2x"></i></span>
        </button>
        <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav">
@@ -47,10 +47,10 @@
     <section id="home">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Daniel Boffey -
+          <h1 class="display-3">Daniel Boffey -
             <span class="txt-type" data-wait="3000" data-words='["Developer", "Creator", "Innovator"]'></span></h1>
-          <p class="lead"> - Freelance Web Developer
-          </p>
+          <h3> - Freelance Web Developer
+          </h3>
         </div>
       </div>
     </section>
@@ -145,28 +145,99 @@
     </section>
 
     <section id="contact">
-      <div class="container-fluid">
-        <h2 class="text-center my-3">Contact Me</h2>
-
+      <div class="container">
+        <h2 class="text-center my-4">Contact Me</h2>
         <div class="media">
-          <span class="m-3 align-self-start"><i class="fas fa-at fa-3x"></i></span>
+          <span class="m-4 align-self-center"><i class="fas fa-at fa-4x"></i></span>
           <div class="media-body">
-            <h5>dboffey70@googlemail.com</h5>
+            <h3>dboffey70@googlemail.com</h3>
             <p>My emails are constatntly monitored and I garuntee a response within 24 hours.</p>
           </div>
         </div>
-
+        <hr>
         <div class="media">
-          <span class="m-3 align-self-start"><i class="fas fa-phone fa-3x"></i></span>
+          <span class="m-4 align-self-center"><i class="fas fa-phone fa-4x"></i></span>
           <div class="media-body">
-            <h5>07453215566</h5>
+            <h3>07453215566</h3>
             <p>My phone is always on and if I dont answer leave me a message and I will call back within 24 hours.</p>
           </div>
         </div>
-
       </div>
     </section>
 
+    <!-- Social media links -->
+    <section>
+      <div class="container">
+        <div class="soc-follow">
+          <h2>Follow Me On Social Media</h2>
+        </div>
+        <div class="soc-links">
+          <ul class="accordion">
+            <li class="tab">
+              <div class="social youtube">
+                <a href="https://www.youtube.com/channel/UC7YgDapdy9xH4bkIRe5OIaA?view_as=subscriber" target="_blank">Youtube</a>
+              </div>
+              <div class="content">
+                <h1>Youtube</h1>
+                <p>Follow me on Youtube</p>
+              </div>
+            </li>
+
+            <li class="tab">
+              <div class="social twitter">
+                <a href="https://twitter.com/?lang=en-gb" target="_blank">Twitter</a>
+              </div>
+              <div class="content">
+                <h1>Twitter</h1>
+                <p>Follow me on Twitter</p>
+              </div>
+            </li>
+
+            <li class="tab">
+              <div class="social facebook">
+                <a href="https://www.facebook.com/daniel.boffey.7" target="_blank">Facebook</a>
+              </div>
+              <div class="content">
+                <h1>Facebook</h1>
+                <p>Add me on Facebook and see what I'm working on</p>
+              </div>
+            </li>
+
+            <li class="tab">
+              <div class="social linkedin">
+                <a href="https://www.linkedin.com/in/daniel-boffey-3a76b76a/" target="_blank">Linkedin</a>
+              </div>
+              <div class="content">
+                <h1>Linkedin</h1>
+                <p>Add me to your network on Linkedin and lets see if we can work together</p>
+              </div>
+            </li>
+
+            <li class="tab">
+              <div class="social github">
+                <a href="https://github.com/dannyboy2005" target="_blank">Github</a>
+              </div>
+              <div class="content">
+                <h1>Github</h1>
+                <p>Checkout my latest projects on Github</p>
+              </div>
+            </li>
+
+            <li class="tab">
+              <div class="social instagram">
+                <a href="https://www.instagram.com/dannyboy170789/" target="_blank">Instagram</a>
+              </div>
+              <div class="content">
+                <h1>Instagram</h1>
+                <p>Follow my Instagram and keep up with me and my ongoing life as a developer!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
       <div class="text-center p-2">
         <p>Copyright &copy; <span id="year"></span>
