@@ -5,11 +5,12 @@
   src: url('fonts/genericons-regular-webfont.woff')format('woff'), url('fonts/genericons-regular-webfont.eot')format('truetype')
 }
 
-/* Body */
+/* Body and utility classes*/
 body {
   font-family: 'Ubuntu', sans-serif;
   background: rgb(25,34,49);
   color: #fff;
+  overflow-x: hidden;
 }
 
 hr {
@@ -17,48 +18,35 @@ hr {
   width: 85%;
 }
 
-/* Navbar */
-nav {
-  background-color: #192231;
-  height: 45px;
-  opacity: .9;
-  padding-bottom: 45px;
-}
-
-nav i{
-  color: #fff;
-}
-
-nav i:hover {
-  color: #ccc;
-}
-
-nav a {
-  color: #fff;
+h2 {
+  text-decoration: underline;
 }
 
 /* Showcase */
-#home {
-  top: 45px;
-}
 
 .jumbotron {
     background: url('imgs/bg3.jpeg') no-repeat center center / cover;
     height: 450px;
 }
 
-
-/* accordion */
-.soc-follow {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 38px;
-  font-weight: 580;
-  text-decoration: underline;
-  letter-spacing: 2px;
+/* About me */
+#about {
+  height: 700px;
 }
 
+.media .media-body h5 {
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.media img {
+  border: 2px solid #ccc;
+  height: 260px;
+  width: 260px;
+}
+
+/* accordion */
 .soc-links {
   margin: 50px auto;
   width: 90%;

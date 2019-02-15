@@ -16,12 +16,11 @@
   <!-- Full page container -->
   <div class="main-container">
     <!-- Navbar -->
-    <nav id="main-nav" class="navbar navbar-expand-sm sticky-top">
-      <a class="navbar-brand" href="#">Daniel Boffey</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span><i class="fas fa-bars fa-2x"></i></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarNav">
+    <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand mr-3" href="#">Navbar</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div id="navbarNav" class="navbar-collapse">
          <ul class="navbar-nav">
            <li class="nav-item">
              <a class="nav-link" href="#home">Home</a>
@@ -59,15 +58,19 @@
     <section id="about">
       <div class="container-fluid">
           <h2 class="text-center my-4">About Me</h2>
-          <div class="media">
-            <img class="mr-3 mt-3 rounded" src="imgs/me.jpg" height="200px" width="200px;">
-            <div class="media-body">
-              <h5>My name is Daniel Boffey and I am a web developer</h5>
-              <p>I am a self taught web developer based in Manchester, UK.
-                <br>
-                 I specialise in building high quality front-end web sites and can use a variety of software and tools in order to deliver a clean and professional website for whatever your needs may be. My work is a huge part of my life and I take great pride in delivering a product that my client loves. Take a look at just some of my work below.</p>
+          <br>
+            <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
+              <img class="mr-3 my-2 ml-2 rounded" src="imgs/me.jpg" height="200px" width="200px;">
+              <div class="media-body">
+                <h5>My name is Daniel Boffey and I am a web developer</h5>
+                <p>I am a self taught web developer based in Manchester, UK.
+                  <br>
+                  <br>
+                   I specialise in building high quality front-end web sites and can use a variety of software and tools in order to deliver a clean and professional website for whatever your needs may be.
+                   <br>
+                    My work is a huge part of my life and I take great pride in delivering a product that my client loves. Take a look at just some of my work below.</p>
+              </div>
             </div>
-          </div>
       </div>
     </section>
 
@@ -147,17 +150,17 @@
     <section id="contact">
       <div class="container">
         <h2 class="text-center my-4">Contact Me</h2>
-        <div class="media">
+        <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
           <span class="m-4 align-self-center"><i class="fas fa-at fa-4x"></i></span>
-          <div class="media-body">
+          <div class="media-body text-center">
             <h3>dboffey70@googlemail.com</h3>
             <p>My emails are constatntly monitored and I garuntee a response within 24 hours.</p>
           </div>
         </div>
         <hr>
-        <div class="media">
+        <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
           <span class="m-4 align-self-center"><i class="fas fa-phone fa-4x"></i></span>
-          <div class="media-body">
+          <div class="media-body text-center">
             <h3>07453215566</h3>
             <p>My phone is always on and if I dont answer leave me a message and I will call back within 24 hours.</p>
           </div>
@@ -169,7 +172,7 @@
     <section>
       <div class="container">
         <div class="soc-follow">
-          <h2>Follow Me On Social Media</h2>
+          <h2 class="text-center my-4">Follow Me On Social Media</h2>
         </div>
         <div class="soc-links">
           <ul class="accordion">
