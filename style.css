@@ -214,7 +214,7 @@ h2 {
       }
       .accordion {
         display: block;
-        min-width: 450px;
+        min-width: 430px;
         height: auto;
       }
       .tab .content {
@@ -232,6 +232,9 @@ h2 {
     }
     .accordion {
       width: 100%;
-      min-width: 350px;
+      min-width: 330px;
+    }
+    .accordion p {
+      display: none;
     }
   }
