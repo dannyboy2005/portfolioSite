@@ -22,6 +22,10 @@ h2 {
   text-decoration: underline;
 }
 
+.bg-dark {
+  background-color: rgba(25,34,49,0.9) !important;
+}
+
 /* Showcase */
 
 .jumbotron {
@@ -46,172 +50,188 @@ h2 {
   width: 260px;
 }
 
+/* My skills */
+.card h4 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card hr {
+  background-color: #ccc;
+}
+
 /* accordion */
 .soc-links {
   margin: 50px auto;
   width: 90%;
 }
-.accordion {
-  margin: 50px auto;
-  background: #333;
-  width: 200px;
-  min-width: 900px;
-  display: block;
-  list-style-type: none;
-  /* overflow: hidden; */
-  height: 200px;
-  font-size: 0;
-}
+  header h1 {
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 
-.tab {
-  display: inline-block;
-  background-color: #444;
-  border-right: #333 solid 1px;
-  width: 80px;
-  height: 200px;
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-  transition: all 0.5s ease-in-out 0.1s;
-}
+  .accordion {
+    background: #333;
+    width: 100%;
+    min-width: 800px;
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    height: 200px;
+    font-size: 0;
+    color: #000;
+  }
 
-.tab:hover {
-  width: 450px;
-}
+  .tab {
+    display: inline-block;
+    background-color: #444;
+    border-right: #333 solid 1px;
+    width: 80px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    transition: all 0.5s ease-in-out 0.1s;
+  }
 
-.tab:hover .social a:before {
-  margin-left: -100px;
-}
+  .tab:hover {
+    width: 425px;
+  }
 
-.tab:hover .social a:after {
-  margin-left: -5px;
-}
+  .tab:hover .social a:before {
+    margin-left: -100px;
+  }
 
-.tab .content {
-  background: #fff;
-  width: 360px;
-  height: 200px;
-  margin-left: 80px;
-  position: relative;
-  padding: 50px 0 0 15px;
-  color: #000;
-}
+  .tab:hover .social a:after {
+    margin-left: -0px;
+  }
 
-.tab .content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
+  .tab .content {
+    background: #fff;
+    width: 360px;
+    height: 200px;
+    margin-left: 80px;
+    position: relative;
+    padding: 50px 0 0 15px;
+  }
 
-.tab .content p {
-  font-size: 0.85rem;
-  line-height: 1.4rem;
-  padding-right: 30px;
-}
+  .tab .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
 
-.social a:before,
-.social a:after {
-  transition: all 0.4s ease-in-out 0.1s;
-  width: 80px;
-  height: 200px;
-  position: absolute;
-  text-indent: 0;
-  padding-top: 90px;
-  padding-left: 25px;
-  display: block;
-  font: normal 30px Genericons;
-  color: #fff;
-}
+  .tab .content p {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    padding-right: 30px;
+  }
 
-.social a:after {
-  font-size: 48px;
-  padding-left: 20px;
-  padding-top: 80px;
-  margin-left: 85px;
-}
+  .social a:before,
+  .social a:after {
+    transition: all 0.4s ease-in-out 0.1s;
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    text-indent: 0;
+    padding-top: 90px;
+    padding-left: 25px;
+    display: block;
+    font: normal 30px Genericons;
+    color: #fff;
+  }
 
-/* Add Icon */
-.youtube a:before,
-.youtube a:after {
-  content: '\f213'
-}
+  .social a:after {
+    font-size: 48px;
+    padding-left: 20px;
+    padding-top: 80px;
+    margin-left: 85px;
+  }
 
-.youtube a:after {
-  background-color: #ff0000;
-}
+  /* Add Icon */
+  .youtube a:before,
+  .youtube a:after {
+    content: '\f213'
+  }
 
-.twitter a:before,
-.twitter a:after {
-  content: '\f202'
-}
+  .youtube a:after {
+    background-color: #ff0000;
+  }
 
-.twitter a:after {
-  background-color: #6dc5dd;
-}
+  .twitter a:before,
+  .twitter a:after {
+    content: '\f202'
+  }
 
-.facebook a:before,
-.facebook a:after {
-  content: '\f204'
-}
+  .twitter a:after {
+    background-color: #6dc5dd;
+  }
 
-.facebook a:after {
-  background-color: #3b5998;
-}
+  .facebook a:before,
+  .facebook a:after {
+    content: '\f204'
+  }
 
-.linkedin a:before,
-.linkedin a:after {
-  content: '\f208'
-}
+  .facebook a:after {
+    background-color: #3b5998;
+  }
 
-.linkedin a:after {
-  background-color: #00a9cd;
-}
+  .linkedin a:before,
+  .linkedin a:after {
+    content: '\f208'
+  }
 
-.instagram a:before,
-.instagram a:after {
-  content: '\f215'
-}
+  .linkedin a:after {
+    background-color: #00a9cd;
+  }
 
-.instagram a:after {
-  background-color: #6dc993;
-}
+  .instagram a:before,
+  .instagram a:after {
+    content: '\f215'
+  }
 
-.github a:before,
-.github a:after {
-  content: '\f200'
-}
+  .instagram a:after {
+    background-color: #6dc993;
+  }
 
-.github a:after {
-  background-color: #6e5494;
-}
+  .github a:before,
+  .github a:after {
+    content: '\f200'
+  }
 
-@media(max-width: 950px) {
-  .soc-links {
-    width: 70%;
-    }
-    .tab {
-      display: block;
-      width: 100%;
-      border-bottom: 3px #333 solid;
+  .github a:after {
+    background-color: #6e5494;
+  }
+
+  @media(max-width: 950px) {
+    .container {
+      width: 70%;
+      }
+      .tab {
+        display: block;
+        width: 100%;
+        border-bottom: 3px #333 solid;
+      }
+      .accordion {
+        display: block;
+        min-width: 450px;
+        height: auto;
+      }
+      .tab .content {
+        width: 85%;
+      }
+
+      .tab:hover {
+        width: 100%;
+      }
+  }
+
+  @media(max-width: 680px) {
+    .container {
+      width: 95%;
     }
     .accordion {
-      display: block;
-      min-width: 450px;
-      height: auto;
-    }
-    .tab .content {
-      width: 85%;
-    }
-
-    .tab:hover {
       width: 100%;
+      min-width: 350px;
     }
-}
-
-@media(max-width: 680px) {
-  .soc-links {
-    width: 95%;
-  }
-  .accordion {
-    width: 100%;
-    min-width: 350px;
   }
