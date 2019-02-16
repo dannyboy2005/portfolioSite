@@ -228,7 +228,7 @@ h2 {
 
   @media(max-width: 680px) {
     .container {
-      width: 95%;
+      width: 85%;
     }
     .accordion {
       width: 100%;
