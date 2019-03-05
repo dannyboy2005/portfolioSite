@@ -35,7 +35,7 @@ h2 {
 
 /* About me */
 #about {
-  height: 700px;
+  height: 650px;
 }
 
 .media .media-body h5 {
@@ -48,6 +48,11 @@ h2 {
   border: 2px solid #ccc;
   height: 280px;
   width: 300px;
+}
+
+#work a {
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 /* My skills */
@@ -235,6 +240,10 @@ h2 {
       .tab:hover {
         width: 100%;
       }
+
+      #about {
+        height: 750px;
+      }
   }
 
   @media(max-width: 680px) {
@@ -250,5 +259,8 @@ h2 {
     }
     .soc-links {
       margin: 0;
+    }
+    #about {
+      height: 750px;
     }
   }
