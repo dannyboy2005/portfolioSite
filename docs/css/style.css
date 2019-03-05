@@ -242,7 +242,8 @@ h2 {
       }
 
       #about {
-        height: 750px;
+        height: 850px;
+        margin-bottom: 150px;
       }
   }
 
@@ -261,6 +262,7 @@ h2 {
       margin: 0;
     }
     #about {
-      height: 750px;
+      height: 850px;
+      margin-bottom: 150px;
     }
   }
