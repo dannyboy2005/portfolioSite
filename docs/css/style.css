@@ -35,7 +35,7 @@ h2 {
 
 /* About me */
 #about {
-  height: 650px;
+  height: 690px;
 }
 
 .media .media-body h5 {
@@ -50,15 +50,14 @@ h2 {
   width: 300px;
 }
 
-#work a {
-  margin-right: 25px;
-  margin-left: 25px;
-}
-
 /* My skills */
 .card h4 {
   text-decoration: underline;
   font-weight: bold;
+}
+.marg-med {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .card hr {
@@ -236,13 +235,17 @@ h2 {
       .tab .content {
         width: 85%;
       }
+      .marg-med {
+        margin-right: 15px;
+        margin-left: 15px;
+      }
 
       .tab:hover {
         width: 100%;
       }
 
       #about {
-        height: 850px;
+        height: 620px;
         margin-bottom: 150px;
       }
   }
@@ -261,8 +264,36 @@ h2 {
     .soc-links {
       margin: 0;
     }
+    .marg-med {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
     #about {
-      height: 850px;
+      height: 720px;
+      margin-bottom: 120px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .container {
+      width: 85%;
+    }
+    .accordion {
+      width: 100%;
+      min-width: 330px;
+    }
+    .accordion p {
+      display: none;
+    }
+    .soc-links {
+      margin: 0;
+    }
+    .marg-med {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    #about {
+      height: 800px;
       margin-bottom: 150px;
     }
   }
