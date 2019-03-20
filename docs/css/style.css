@@ -50,6 +50,12 @@ h2 {
   width: 300px;
 }
 
+#work .work-img:hover {
+  opacity: .7;
+  height: 105%;
+  width: 105%;
+}
+
 /* My skills */
 .card h4 {
   text-decoration: underline;
