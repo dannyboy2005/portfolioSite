@@ -51,13 +51,13 @@
 // }
 
 // Smooth scrolling
-$('.cf a').on('click', function(event){
-  if (this.hash !== '') {
+$(".cf a").on("click", function(event) {
+  if (this.hash !== "") {
     event.preventDefault();
 
     const hash = this.hash;
 
-    $('html, body').animate(
+    $("html, body").animate(
       {
         scrollTop: $(hash).offset().top
       },
@@ -70,14 +70,14 @@ $('.cf a').on('click', function(event){
 });
 
 // Get the current year for the copyright
-$('#year').text(new Date().getFullYear());
+$("#year").text(new Date().getFullYear());
 
 // ES6 class
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
     this.words = words;
-    this.txt = '';
+    this.txt = "";
     this.wordIndex = 0;
     this.wait = parseInt(wait, 10);
     this.type();
@@ -90,7 +90,7 @@ class TypeWriter {
     // Get full text of current word
     const fullTxt = this.words[current];
     // Check if deleting
-    if(this.isDeleting) {
+    if (this.isDeleting) {
       // Remove char
       this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
@@ -104,17 +104,17 @@ class TypeWriter {
     // Initial Type speed
     let typeSpeed = 300;
 
-    if(this.isDeleting) {
+    if (this.isDeleting) {
       typeSpeed /= 2;
     }
 
     // If word is complete
-    if(!this.isDeleting && this.txt === fullTxt) {
+    if (!this.isDeleting && this.txt === fullTxt) {
       // Make pause at end of word written
       typeSpeed = this.wait;
       // Set delete to true
       this.isDeleting = true;
-    } else if(this.isDeleting && this.txt === ''){
+    } else if (this.isDeleting && this.txt === "") {
       this.isDeleting = false;
       // Move to next word
       this.wordIndex++;
@@ -127,13 +127,13 @@ class TypeWriter {
 }
 
 // Init on DOM load
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener("DOMContentLoaded", init);
 
 //Init app
-function init(){
-  const txtElement = document.querySelector('.txt-type');
-  const words = JSON.parse(txtElement.getAttribute('data-words'));
-  const wait = txtElement.getAttribute('data-wait');
+function init() {
+  const txtElement = document.querySelector(".txt-type");
+  const words = JSON.parse(txtElement.getAttribute("data-words"));
+  const wait = txtElement.getAttribute("data-wait");
   // INIT TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
@@ -160,15 +160,15 @@ function closeNav() {
 
 // Animate CSS function
 function animateCSS(element, animationName, callback) {
-  const node = document.querySelector(element)
-  node.classList.add('animated', animationName)
+  const node = document.querySelector(element);
+  node.classList.add("animated", animationName);
 
   function handleAnimationEnd() {
-      node.classList.remove('animated', animationName)
-      node.removeEventListener('animationend', handleAnimationEnd)
+    node.classList.remove("animated", animationName);
+    node.removeEventListener("animationend", handleAnimationEnd);
 
-      if (typeof callback === 'function') callback()
+    if (typeof callback === "function") callback();
   }
 
-  node.addEventListener('animationend', handleAnimationEnd)
+  node.addEventListener("animationend", handleAnimationEnd);
 }
