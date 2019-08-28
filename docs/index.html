@@ -51,6 +51,7 @@
             <span class="txt-type" data-wait="3000" data-words='["Developer", "Creator", "Innovator"]'></span></h1>
           <h3> - Freelance Web Developer
           </h3>
+          <a href="#contact"><button type="submit" class="btn btn-primary mt-4">Lets work together</button></a
         </div>
       </div>
     </section>
@@ -83,7 +84,6 @@
     <section id="work">
       <div class="container-fluid fadeInRight">
         <h2 class="text-center my-5">My Work</h2>
-
         <div class="row">
             <a class="col-md marg-med my-1" href="https://dannyboy2005.github.io/Highrise-construction/" target="_blank">
               <div class="card text-white text-center work-img">
@@ -111,29 +111,7 @@
               </div>
             </div>
           </a>
-
        </div>
-<!-- 
-       <div class="row justify-content-between">
-        <a class="col-md marg-med my-1" href="https://dannyboy2005.github.io/Maxwell-Photography/" target="_blank">
-          <div class="card text-dark text-center work-img">
-            <img class="card-img" src="imgs/maxwell.PNG">
-            <div class="card-img-overlay">
-                <h4 class="card-title">Maxwell Photograpy</h4>
-            </div>
-          </div>
-        </a>
-
-        <a class="col-md marg-med my-1" href="https://dannyboy2005.github.io/Developers-Inc./" target="_blank">
-          <div class="card text-white text-center work-img">
-            <img class="card-img" src="imgs/developerInc.PNG">
-            <div class="card-img-overlay">
-                <h4 class="card-title">Developers Inc.</h4>
-            </div>
-          </div>
-        </a>
-       </div> -->
-
       </div>
     </section>
 
@@ -178,7 +156,6 @@
                   <span>Python</span><hr>
                   <span>MongoDB</span><hr>
                   <span>NodeJS</span><hr>
-                  <span>Ruby On Rails</span><hr>
                   <span>Express</span></p>
               </div>
           </div>
@@ -187,10 +164,11 @@
       </div>
     </section>
 
+    <!-- Contact section -->
     <section id="contact">
       <div class="container fadeInRight">
         <h2 class="text-center my-4">Contact Me</h2>
-        <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
+        <!-- <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
           <span class="m-4 align-self-center"><i class="fas fa-at fa-4x"></i></span>
           <div class="media-body text-center">
             <h3>dboffey70@googlemail.com</h3>
@@ -204,7 +182,22 @@
             <h3>07984932911</h3>
             <p>My phone is always on and if I dont answer leave me a message and I will call back within 24 hours.</p>
           </div>
-        </div>
+        </div> -->
+        <form class="text-center" data-netlify="true" name="contact" method="POST">
+          <div class="form-group">
+            <label class="my-2" for="name">Name <span class="align-self-center"><i class="ml-2 fas fa-signature"></i></span></label>
+            <input class="form-control" type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label class="my-2" for="email">Email<span class="align-self-center"><i class="ml-2 fas fa-at"></i></span></label>
+            <input class="form-control" type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label class="my-2" for="message">Message<span class="align-self-center"><i class="ml-2 fas fa-comment"></i></span></label>
+            <textarea class="form-control" id="message" placeholder="Please Write Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send<span class="align-self-center"><i class="ml-2 fas fa-envelope"></i></span></button>
+        </form>
       </div>
     </section>
 
