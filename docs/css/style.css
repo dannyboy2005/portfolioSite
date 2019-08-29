@@ -9,7 +9,19 @@
 /* Body and utility classes*/
 body {
   font-family: "Ubuntu", sans-serif;
-  background: rgb(25, 34, 49);
+  /* background: rgb(25, 34, 49); */
+  background: #5c258d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #fff;
   overflow-x: hidden;
 }
@@ -21,10 +33,22 @@ hr {
 
 h2 {
   text-decoration: underline;
+  color: #fff;
+  font-size: 2.8rem;
+  letter-spacing: 2.2px;
 }
 
 .bg-dark {
-  background-color: rgba(25, 34, 49, 0.9) !important;
+  background-color: rgba(92, 37, 141, 0.5) !important;
+}
+
+nav .navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+nav .navbar-toggler-icon:hover {
+  transform: translateY(3px);
 }
 
 /* Showcase */
