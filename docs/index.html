@@ -10,6 +10,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Daniel Boffey-Web Developer</title>
 </head>
 
@@ -58,14 +59,14 @@
 
     <!-- About me section -->
     <section id="about">
-      <div class="container-fluid text-center fadeInLeft">
+      <div class="container-fluid text-center">
           <h2 class="text-center my-4">About Me</h2>
           <br>
             <div class="media d-flex flex-column row-hl justify-content-center align-items-center">
               <img class="mx-3 mb-5 round" src="imgs/me.jpg">
               <div class="media-body">
                 <h5 class="mb-3">My name is Daniel Boffey and I build applications for the web</h5>
-                <p>I am a self taught web developer based in Manchester, UK.
+                <p class="pb-5">I am a self taught web developer based in Manchester, UK.
                   <br>
                   <br>
                    I specialise in building high quality front-end web sites and can use a variety of software and tools in order to deliver a clean and professional website for whatever your needs may be.
@@ -81,8 +82,8 @@
     </section>
 
     <!-- Portfolio of work -->
-    <section id="work">
-      <div class="container-fluid fadeInRight">
+    <section id="work" data-aos="fade-left">
+      <div class="container-fluid pt-5">
         <h2 class="text-center my-5">My Work</h2>
         <div class="row no-gutters">
           <div class="col-md">
@@ -111,8 +112,8 @@
     </section>
 
     <!-- My skills  -->
-    <section id="skills">
-      <div class="container-fluid fadeInLeft">
+    <section id="skills" data-aos="fade-right">
+      <div class="container-fluid">
         <h2 class="text-center my-5">My Skills</h2>
         <div class="row">
 
@@ -160,8 +161,8 @@
     </section>
 
     <!-- Contact section -->
-    <section id="contact">
-      <div class="container fadeInRight">
+    <section id="contact" data-aos="fade-left">
+      <div class="container">
         <h2 class="text-center my-4">Contact Me</h2>
         <form class="text-center" data-netlify="true" name="contact-me" data-netlify-honeypot="bot-field" method="POST">
           <div class="form-group">
@@ -194,18 +195,18 @@
     </section>
 
     <!-- Social media links -->
-    <section id="social-media">
-      <div class="container fadeInLeft">
+    <section id="social-media" data-aos="fade-right">
+      <div class="container">
         <div class="soc-follow mx-2">
           <h2 class="text-center my-5">Follow Me On Social Media</h2>
         </div>
         <div class="row d-flex justify-content-between mb-5">
-          <a class="twitter-link" href="https://twitter.com/Daniel841092001"><i class="fab fa-twitter fa-3x"></i></a>
-          <a class="facebook-link" href="https://www.facebook.com/daniel.boffey.7"><i class="fab fa-facebook fa-3x"></i></a>
-          <a class="instagram-link" href="https://www.instagram.com/dannyboy170789/"><i class="fab fa-instagram fa-3x"></i></a>
-          <a class="github-link" href="https://github.com/"><i class="fab fa-github fa-3x"></i></a>
-          <a class="codepen-link" href="https://codepen.io/Dannyboy170789/"><i class="fab fa-codepen fa-3x"></i></a>
-          <a class="linkedin-link" href="https://www.linkedin.com/in/daniel-boffey-3a76b76a/"><i class="fab fa-linkedin fa-3x"></i></a>
+          <a class="twitter-link" href="https://twitter.com/Daniel841092001"><i class="fab fa-twitter fa-4x"></i></a>
+          <a class="facebook-link" href="https://www.facebook.com/daniel.boffey.7"><i class="fab fa-facebook fa-4x"></i></a>
+          <a class="instagram-link" href="https://www.instagram.com/dannyboy170789/"><i class="fab fa-instagram fa-4x"></i></a>
+          <a class="github-link" href="https://github.com/"><i class="fab fa-github fa-4x"></i></a>
+          <a class="codepen-link" href="https://codepen.io/Dannyboy170789/"><i class="fab fa-codepen fa-4x"></i></a>
+          <a class="linkedin-link" href="https://www.linkedin.com/in/daniel-boffey-3a76b76a/"><i class="fab fa-linkedin fa-4x"></i></a>
         </div>
       </div>
     </section>
@@ -256,6 +257,13 @@
     });
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 250,
+      duration: 1000
+    });
   </script>
 </body>
 

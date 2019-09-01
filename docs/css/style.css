@@ -10,16 +10,16 @@
 body {
   font-family: "Ubuntu", sans-serif;
   /* background: rgb(25, 34, 49); */
-  background: #5c258d; /* fallback for old browsers */
+  background: #373b44; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #4389a2,
-    #5c258d
+    #4286f4,
+    #373b44
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #4389a2,
-    #5c258d
+    #4286f4,
+    #373b44
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #fff;
@@ -39,7 +39,7 @@ h2 {
 }
 
 .bg-dark {
-  background-color: rgba(92, 37, 141, 0.5) !important;
+  background-color: rgba(66, 134, 244, 0.5) !important;
 }
 
 nav .navbar-toggler {
@@ -87,6 +87,10 @@ nav .navbar-toggler-icon:hover {
   font-size: 1.6rem;
 }
 
+.media .media-body p {
+  font-size: 1.2rem;
+}
+
 .media img {
   border: 2px solid #ccc;
   height: 280px;
@@ -120,10 +124,14 @@ nav .navbar-toggler-icon:hover {
   background-color: #ccc;
 }
 
+.card .card-body span {
+  font-size: 1.2rem;
+}
+
 /* Contact form */
 #contact form button {
   background: #fff;
-  border: solid 2px #000;
+  border: solid 1px #000;
   color: #000;
   font-size: 1.3rem;
 }
@@ -136,52 +144,56 @@ nav .navbar-toggler-icon:hover {
   transform: translateY(4px);
 }
 
+#contact form label {
+  font-size: 1.4rem;
+}
+
 /* Social links */
-#social-media .facebook-link i:hover {
+#social-media .facebook-link i {
   color: #3b5998;
 }
 
-#social-media .facebook-link i {
+#social-media .facebook-link i:hover {
   color: #fff;
-}
-
-#social-media .twitter-link i:hover {
-  color: #33ccff;
 }
 
 #social-media .twitter-link i {
-  color: #fff;
+  color: #33ccff;
 }
 
-#social-media .instagram-link i:hover {
-  color: #4e433c;
+#social-media .twitter-link i:hover {
+  color: #fff;
 }
 
 #social-media .instagram-link i {
-  color: #fff;
+  color: #4e433c;
 }
 
-#social-media .codepen-link i:hover {
-  color: #212121;
+#social-media .instagram-link i:hover {
+  color: #fff;
 }
 
 #social-media .codepen-link i {
-  color: #fff;
+  color: #212121;
 }
 
-#social-media .linkedin-link i:hover {
-  color: #4875b4;
+#social-media .codepen-link i:hover {
+  color: #fff;
 }
 
 #social-media .linkedin-link i {
+  color: #4875b4;
+}
+
+#social-media .linkedin-link i:hover {
   color: #fff;
 }
 
-#social-media .github-link i:hover {
+#social-media .github-link i {
   color: #333;
 }
 
-#social-media .github-link i {
+#social-media .github-link i:hover {
   color: #fff;
 }
 
@@ -236,7 +248,7 @@ nav .navbar-toggler-icon:hover {
     margin-left: 20px;
   }
   #about {
-    height: 720px;
+    min-height: 820px;
     margin-bottom: 120px;
   }
   .jumbotron h1 {
