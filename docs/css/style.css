@@ -282,3 +282,10 @@ nav .navbar-toggler-icon:hover {
     height: 250px;
   }
 }
+
+@media (max-width: 320px) {
+  #about {
+    height: 850px;
+    margin-bottom: 150px;
+  }
+}
