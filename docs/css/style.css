@@ -106,6 +106,24 @@ nav .navbar-toggler-icon:hover {
   height: 100%;
 }
 
+.link-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link-container h1 {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10%;
+}
+
 /* My skills */
 
 .card {
