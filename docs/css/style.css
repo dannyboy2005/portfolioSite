@@ -129,8 +129,6 @@ nav .navbar-toggler-icon:hover {
 }
 
 .overlay {
-  /* position: relative;
-  text-align: center; */
   background: black;
   z-index: 5;
 }
@@ -150,10 +148,6 @@ nav .navbar-toggler-icon:hover {
 }
 
 /* My skills */
-
-.card {
-  /* background: #ccc; */
-}
 .card h4 {
   text-decoration: underline;
   font-weight: bold;
