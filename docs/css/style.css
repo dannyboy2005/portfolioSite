@@ -10,17 +10,16 @@
 /* Body and utility classes*/
 body {
   font-family: "Ubuntu", sans-serif;
-  /* background: rgb(25, 34, 49); */
-  background: #000428; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #004e92,
-    #000428
+    #434343,
+    #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #004e92,
-    #000428
+    #434343,
+    #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #fff;
@@ -40,7 +39,19 @@ h2 {
 }
 
 .bg-dark {
-  background-color: rgba(32, 97, 202, 0.5) !important;
+  /* background-color: rgba(32, 97, 202, 0.5) !important; */
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
 }
 
 nav .navbar-toggler {
