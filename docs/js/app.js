@@ -51,7 +51,7 @@
 // }
 
 // Smooth scrolling
-$(".cf a").on("click", function(event) {
+$("a").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
@@ -59,10 +59,10 @@ $(".cf a").on("click", function(event) {
 
     $("html, body").animate(
       {
-        scrollTop: $(hash).offset().top
+        scrollTop: $(hash).offset().top,
       },
       800,
-      function() {
+      function () {
         window.location.hash = hash;
       }
     );

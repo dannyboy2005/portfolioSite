@@ -10,7 +10,7 @@
 /* Body and utility classes*/
 body {
   font-family: "Ubuntu", sans-serif;
-  background: #90ddf0; /* fallback for old browsers */
+  /* background: #90ddf0; fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #0077b6,
@@ -316,5 +316,8 @@ nav .navbar-toggler-icon:hover {
   #about {
     height: 865px;
     margin-bottom: 150px;
+  }
+  .jumbotron h1 {
+    height: 180px;
   }
 }
