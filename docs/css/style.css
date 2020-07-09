@@ -10,16 +10,16 @@
 /* Body and utility classes*/
 body {
   font-family: "Ubuntu", sans-serif;
-  background: #000000; /* fallback for old browsers */
+  background: #90ddf0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0077b6,
+    #90ddf0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0077b6,
+    #90ddf0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   color: #fff;
@@ -39,18 +39,18 @@ h2 {
 }
 
 .bg-dark {
-  /* background-color: rgba(32, 97, 202, 0.5) !important; */
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0077b6,
+    #90ddf0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #0077b6,
+    #90ddf0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   opacity: 0.9;
 }
 
@@ -73,7 +73,7 @@ nav .navbar-toggler-icon:hover {
 
 .jumbotron button {
   background: none;
-  border-color: #fff;
+  border-color: #90ddf0;
   font-size: 1.3rem;
   -webkit-box-shadow: 5px 5px 5px 0px rgba(25, 34, 49, 0.6);
   -moz-box-shadow: 5px 5px 5px 0px rgba(25, 34, 49, 0.6);
@@ -81,9 +81,9 @@ nav .navbar-toggler-icon:hover {
 }
 
 .jumbotron button:hover {
-  background: rgba(25, 34, 49, 0.9) !important;
+  background: rgba(0, 119, 182, 0.9) !important;
   color: #fff;
-  border-color: rgba(25, 34, 49, 0.9) !important;
+  border-color: rgba(0, 119, 182, 0.9) !important;
   font-size: 1.3rem;
   transform: translateY(4px);
 }
@@ -108,7 +108,6 @@ nav .navbar-toggler-icon:hover {
   height: 280px;
   width: 300px;
   border-radius: 50%;
-  transform: rotate(270deg);
 }
 
 /* My Work */
@@ -198,51 +197,51 @@ nav .navbar-toggler-icon:hover {
 
 /* Social links */
 #social-media .facebook-link i {
-  color: #3b5998;
+  color: #fff;
 }
 
 #social-media .facebook-link i:hover {
-  color: #fff;
+  color: #3b5998;
 }
 
 #social-media .twitter-link i {
-  color: #33ccff;
+  color: #fff;
 }
 
 #social-media .twitter-link i:hover {
-  color: #fff;
+  color: #33ccff;
 }
 
 #social-media .instagram-link i {
-  color: #4e433c;
+  color: #fff;
 }
 
 #social-media .instagram-link i:hover {
-  color: #fff;
+  color: #4e433c;
 }
 
 #social-media .codepen-link i {
-  color: #212121;
+  color: #fff;
 }
 
 #social-media .codepen-link i:hover {
-  color: #fff;
+  color: #212121;
 }
 
 #social-media .linkedin-link i {
-  color: #4875b4;
+  color: #fff;
 }
 
 #social-media .linkedin-link i:hover {
-  color: #fff;
+  color: #4875b4;
 }
 
 #social-media .github-link i {
-  color: #333;
+  color: #fff;
 }
 
 #social-media .github-link i:hover {
-  color: #fff;
+  color: #333;
 }
 
 @media (max-width: 950px) {
@@ -253,11 +252,6 @@ nav .navbar-toggler-icon:hover {
     display: block;
     width: 100%;
     border-bottom: 3px #333 solid;
-  }
-  .accordion {
-    display: block;
-    min-width: 430px;
-    height: auto;
   }
   .tab .content {
     width: 85%;
@@ -281,13 +275,6 @@ nav .navbar-toggler-icon:hover {
   .container {
     width: 85%;
   }
-  .accordion {
-    width: 100%;
-    min-width: 330px;
-  }
-  .accordion p {
-    display: none;
-  }
   .soc-links {
     margin: 0;
   }
@@ -300,7 +287,7 @@ nav .navbar-toggler-icon:hover {
     margin-bottom: 120px;
   }
   .jumbotron h1 {
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -308,13 +295,7 @@ nav .navbar-toggler-icon:hover {
   .container {
     width: 85%;
   }
-  .accordion {
-    width: 100%;
-    min-width: 330px;
-  }
-  .accordion p {
-    display: none;
-  }
+
   .soc-links {
     margin: 0;
   }
@@ -327,7 +308,7 @@ nav .navbar-toggler-icon:hover {
     margin-bottom: 150px;
   }
   .jumbotron h1 {
-    height: 250px;
+    height: 200px;
   }
 }
 
