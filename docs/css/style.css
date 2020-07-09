@@ -39,7 +39,7 @@ h2 {
 }
 
 .bg-dark {
-  background: #000000; /* fallback for old browsers */
+  background: #90ddf0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #0077b6,
@@ -111,6 +111,11 @@ nav .navbar-toggler-icon:hover {
 }
 
 /* My Work */
+
+#work {
+  display: flex;
+  flex-direction: column !important;
+}
 #work h4 {
   color: #fff;
   font-family: "Jomolhari", serif;
@@ -125,21 +130,21 @@ nav .navbar-toggler-icon:hover {
 
 #work button {
   background: #fff;
-  border: solid 1px #000;
+  border-color: #90ddf0;
   color: #000;
   font-size: 1.3rem;
 }
 
 #work button:hover {
-  background: rgba(25, 34, 49, 0.9) !important;
+  background: rgba(0, 119, 182, 0.9) !important;
   color: #fff;
-  border-color: #fff;
+  border-color: rgba(0, 119, 182, 0.9) !important;
   font-size: 1.3rem;
   transform: translateY(4px);
 }
 
 #example {
-  min-height: 750px;
+  /* min-height: 750px; */
 }
 
 .overlay {
@@ -314,6 +319,9 @@ nav .navbar-toggler-icon:hover {
   .jumbotron h1 {
     height: 180px;
     font-size: 3.5rem;
+  }
+  #example {
+    min-height: 750px;
   }
 }
 
