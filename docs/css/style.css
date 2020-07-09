@@ -138,6 +138,10 @@ nav .navbar-toggler-icon:hover {
   transform: translateY(4px);
 }
 
+#example {
+  min-height: 750px;
+}
+
 .overlay {
   background: black;
   z-index: 5;
@@ -304,18 +308,18 @@ nav .navbar-toggler-icon:hover {
     margin-left: 15px;
   }
   #about {
-    height: 800px;
+    height: 900px;
     margin-bottom: 150px;
   }
   .jumbotron h1 {
-    height: 200px;
+    height: 180px;
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 400px) {
   #about {
     height: 900px;
-    margin-bottom: 20px;
   }
   .jumbotron h1 {
     height: 180px;
